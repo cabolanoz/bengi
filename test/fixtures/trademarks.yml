@@ -1,21 +1,20 @@
 # == Schema Information
 #
-# Table name: routes
+# Table name: trademarks
 #
 #  id         :integer          not null, primary key
-#  latitude   :decimal(10, 8)
-#  longitude  :decimal(10, 8)
+#  name       :string
+#  status     :boolean
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  vehicle_id :integer
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  latitude: 
-  longitude: 
+  name: MyString
+  status: false
 
 two:
-  latitude: 
-  longitude: 
+  name: MyString
+  status: false

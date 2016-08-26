@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: vehicles
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  trademark_id :integer
+#  plate        :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  trademark: one
+  plate: MyString
+  route: one
+
+two:
+  name: MyString
+  trademark: two
+  plate: MyString
+  route: two

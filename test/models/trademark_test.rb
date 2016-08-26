@@ -1,18 +1,17 @@
 # == Schema Information
 #
-# Table name: routes
+# Table name: trademarks
 #
 #  id         :integer          not null, primary key
-#  latitude   :decimal(10, 8)
-#  longitude  :decimal(10, 8)
+#  name       :string
+#  status     :boolean
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  vehicle_id :integer
 #
 
 require 'test_helper'
 
-class RouteTest < ActiveSupport::TestCase
+class TrademarkTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
