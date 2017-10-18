@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.1'
 
 gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
+gem 'jquery-rails'
 gem 'pg'
-gem 'puma', '~> 3.0'
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
+gem 'rubocop', '~> 0.50.0', require: false
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5.x'
 gem 'uglifier', '>= 1.3.0'
@@ -24,4 +24,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
