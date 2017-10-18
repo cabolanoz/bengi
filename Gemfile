@@ -8,7 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails', '>= 5.0.0.rc2', '< 5.1'
+gem 'rails', '>= 5.0.0', '< 5.1'
 gem 'rubocop', '~> 0.50.0', require: false
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5.x'
