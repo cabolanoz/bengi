@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateTrademarks < ActiveRecord::Migration[5.0]
   def change
     create_table :trademarks do |t|
